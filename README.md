@@ -12,6 +12,17 @@ The goal is to build a **Convolutional Neural Network (CNN)** that can automatic
 ## 📂 Dataset Description
 - Source: Kaggle Chest X-ray dataset (Guangzhou Women and Children’s Medical Center)
 - Patients: Pediatric (ages 1–5 years)
+- Structure:-
+chest_xray/
+├── train/
+│    ├── NORMAL/
+│    └── PNEUMONIA/
+├── val/
+│    ├── NORMAL/
+│    └── PNEUMONIA/
+└── test/
+├── NORMAL/
+└── PNEUMONIA/
 - Approximate distribution:
 - Training: ~5,000 images
 - Validation: ~16 images
